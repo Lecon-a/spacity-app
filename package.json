@@ -5,9 +5,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run dist",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "vite dist",
+    "build": "vite build",
     "preview": "vite preview",
     "spa:dev-env": "vite"
   },
