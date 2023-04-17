@@ -12,7 +12,7 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active text-white" aria-current="page" to="/">Home</Link>
+                <Link className="nav-link active text-white" aria-current="page" to="/spacity-app">Home</Link>
               </li>
               <li className="nav-item dropdown">
                 <Link className="nav-link text-white" to="courses" >
