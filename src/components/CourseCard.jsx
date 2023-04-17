@@ -6,7 +6,7 @@ const CourseCard = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => { 
-    fetch("/courses.json")
+    fetch("/spacity-app/courses.json")
     .then(response => response.json())
     .then(data => setCourses(data))
     .catch(error => console.log("Error: ", error))

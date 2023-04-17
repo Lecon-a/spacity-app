@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react'
 import CourseCard from '../components/CourseCard'
 
 const Courses = () => {
