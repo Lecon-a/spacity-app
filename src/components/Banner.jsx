@@ -22,7 +22,7 @@ const Banner = () => {
         <div style={styles.bannerText}>
           <p>Only at SPACITY you can get programming complex concepts simplified for easy comprehension and productive learning...</p>
           </div>
-          <img className='banner-wall-image' src='/images/machine-learning.jpeg' alt='Banner Image' />
+          <img className='banner-wall-image' src='images/machine-learning.jpeg' alt='Banner Image' />
         </div>
         <div className='banner-wall second-banner-wall'>
         <div className='banner-card'>

@@ -5,19 +5,19 @@ function App() {
 
   return (
     <Routes>
-      <Route exact path="/" element={<Layout />}>
-        <Route exact index element={<LandingPage />} />
-        <Route exact path='/courses' element={<Courses />} />
-        <Route exact path='/courses/:id' element={<SingleCourse />} />
-        <Route exact path='/services' element={<Services />} />
-        <Route exact path='/blogs' element={<Blogs />} />
-        <Route exact path='/about_us' element={<AboutUs />} />
-        <Route exact path='/contact_us' element={<ContactUs />} />
+      <Route path="/spacity-app" element={<Layout />}>
+        <Route index element={<LandingPage />} />
+        <Route exact path='/spacity-app/courses' element={<Courses />} />
+        <Route exact path='/spacity-app/courses/:id' element={<SingleCourse />} />
+        <Route exact path='/spacity-app/services' element={<Services />} />
+        <Route exact path='/spacity-app/blogs' element={<Blogs />} />
+        <Route exact path='/spacity-app/about_us' element={<AboutUs />} />
+        <Route exact path='/spacity-app/contact_us' element={<ContactUs />} />
         
-        <Route exact path='/signup' element={<SignUp />} />
-        <Route exact path='/forgot-password' element={<ForgotPassword />} />
+        <Route exact path='/spacity-app/signup' element={<SignUp />} />
+        <Route exact path='/spacity-app/forgot-password' element={<ForgotPassword />} />
       </Route>
-    </Routes>
+      </Routes>
   )
 }
 
