@@ -1,11 +1,10 @@
-import { Route, Routes } from "react-router-dom"
+import { Route } from "react-router-dom"
 import { Layout, LandingPage, Courses, Services, Blogs, AboutUs, ContactUs, SignUp, ForgotPassword, SingleCourse } from './components';
 
 function App() {
 
   return (
     <div className="App">
-        <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<LandingPage />} />
             <Route path='/courses' element={<Courses />} />
@@ -18,7 +17,6 @@ function App() {
             <Route path='/signup' element={<SignUp />} />
             <Route path='/forgot-password' element={<ForgotPassword />} />
           </Route>
-        </Routes>
     </div>
   )
 }
